@@ -44,7 +44,7 @@ public class EhcacheServiceImpl implements EhcacheService {
     @Cacheable(value="UserCache", key="'user:' + #userId")    
     public User findById(String userId) {  
         System.out.println("模拟从数据库中查询数据");
-        return (User) new User("1", "mengdee");           
+        return (User) new User(1, "mengdee");           
     }  
 
     @Cacheable(value="UserCache", condition="#userId.length()<12")    

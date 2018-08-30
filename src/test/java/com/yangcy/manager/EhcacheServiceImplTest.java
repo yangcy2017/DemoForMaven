@@ -1,14 +1,11 @@
 package com.yangcy.manager;
 
 import org.junit.Test;
-import org.springframework.beans.factory.annotation.Autowired;
-
 import com.yangcy.SpringTestCase;
 
 public class EhcacheServiceImplTest extends SpringTestCase {
 
-    @Autowired
-    private EhcacheService ehcacheService;
+    
 
     // 有效时间是5秒，第一次和第二次获取的值是一样的，因第三次是5秒之后所以会获取新的值
     @Test
