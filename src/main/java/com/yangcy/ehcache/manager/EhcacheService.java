@@ -1,6 +1,6 @@
-package com.yangcy.manager;
+package com.yangcy.ehcache.manager;
 
-import com.yangcy.manager.entity.User;
+import com.yangcy.ehcache.manager.entity.User;
 
 public interface EhcacheService {
     // 测试失效情况，有效期为5秒

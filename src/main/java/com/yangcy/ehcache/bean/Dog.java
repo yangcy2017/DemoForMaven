@@ -1,4 +1,4 @@
-package com.yangcy.bean;
+package com.yangcy.ehcache.bean;
 
 public class Dog {
 	private short age;

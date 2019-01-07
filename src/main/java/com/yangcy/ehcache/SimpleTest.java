@@ -1,4 +1,4 @@
-package com.yangcy;
+package com.yangcy.ehcache;
 
 import java.net.URL;
 

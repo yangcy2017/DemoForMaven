@@ -1,4 +1,4 @@
-package com.yangcy.manager.entity;
+package com.yangcy.ehcache.manager.entity;
 
 import java.io.Serializable;
 

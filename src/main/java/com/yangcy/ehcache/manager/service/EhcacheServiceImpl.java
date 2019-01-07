@@ -1,12 +1,12 @@
-package com.yangcy.manager.service;
+package com.yangcy.ehcache.manager.service;
 
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
-import com.yangcy.manager.EhcacheService;
-import com.yangcy.manager.entity.User;
+import com.yangcy.ehcache.manager.EhcacheService;
+import com.yangcy.ehcache.manager.entity.User;
 
 @Service
 public class EhcacheServiceImpl implements EhcacheService {

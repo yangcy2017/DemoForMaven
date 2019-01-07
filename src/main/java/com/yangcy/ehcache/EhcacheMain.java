@@ -1,9 +1,9 @@
-package com.yangcy;
+package com.yangcy.ehcache;
 
 import java.io.InputStream;
 import java.net.URL;
 
-import com.yangcy.bean.Dog;
+import com.yangcy.ehcache.bean.Dog;
 
 import net.sf.ehcache.Cache;
 import net.sf.ehcache.CacheManager;

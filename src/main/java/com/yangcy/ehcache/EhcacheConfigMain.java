@@ -1,4 +1,4 @@
-package com.yangcy;
+package com.yangcy.ehcache;
 
 import net.sf.ehcache.Cache;
 import net.sf.ehcache.CacheManager;
